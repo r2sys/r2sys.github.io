@@ -1,0 +1,44 @@
+@font-face {
+   font-family: NexaLight;
+   src: url("fonts/nexalight.otf") format("opentype");
+}
+
+@font-face {
+   font-family: NexaBold;
+   src: url("fonts/nexabold.otf") format("opentype");
+}
+
+html {
+   position: relative;
+   min-height: 100%;
+}
+
+body {
+   font-family: 'NexaLight';
+   background-color: #212323;
+   color: #f5f5f5;
+
+   /* Margin bottom by footer height */
+   margin-bottom: 60px;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   /* Set the fixed height of the footer here */
+   height: 60px;
+   background-color: #f5f5f5;
+   color: #212323
+}
+.container {
+   width: auto;
+   max-width: 680px;
+   padding: 0 15px;
+}
+.container .text-muted {
+   margin: 20px 0;
+}
+a, a:link, a:visited, a:active, a:hover {
+   color: #8FC73E;
+}
